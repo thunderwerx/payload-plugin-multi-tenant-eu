@@ -47,12 +47,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu.git"
+    "url": "git+https://github.com/thunderwerx/payload-plugin-multi-tenant-eu.git"
   },
   "bugs": {
-    "url": "https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu/issues"
+    "url": "https://github.com/thunderwerx/payload-plugin-multi-tenant-eu/issues"
   },
-  "homepage": "https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu#readme",
+  "homepage": "https://github.com/thunderwerx/payload-plugin-multi-tenant-eu#readme",
   "peerDependencies": {
     "payload": "^3.0.0",
     "@payloadcms/plugin-multi-tenant": "^3.0.0"
