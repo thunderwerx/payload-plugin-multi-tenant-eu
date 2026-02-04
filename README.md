@@ -318,4 +318,4 @@ MIT - see [LICENSE](./LICENSE)
 
 ## Author
 
-[Thunderwerx Ltd](https://thunderwerx.com)
+[Thunderwerx Ltd](https://thunderwerx.co.uk)
