@@ -1,0 +1,71 @@
+{
+  "name": "payload-plugin-multi-tenant-eu",
+  "version": "1.0.2",
+  "description": "EU/UK GDPR compliance extension for the official Payload CMS Multi-Tenant Plugin. Adds tenant-level privacy fields, data portability exports, retention management, and erasure hooks.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./client": {
+      "types": "./dist/client.d.ts",
+      "import": "./dist/client.mjs",
+      "require": "./dist/client.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "payload",
+    "payloadcms",
+    "plugin",
+    "multi-tenant",
+    "multitenancy",
+    "gdpr",
+    "privacy",
+    "eu",
+    "uk",
+    "data-protection",
+    "compliance",
+    "erasure",
+    "retention",
+    "dpa"
+  ],
+  "author": "Thunderwerx Ltd <hello@thunderwerx.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu/issues"
+  },
+  "homepage": "https://github.com/thunderwerx-ltd/payload-plugin-multi-tenant-eu#readme",
+  "peerDependencies": {
+    "payload": "^3.0.0",
+    "@payloadcms/plugin-multi-tenant": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "payload": "^3.69.0",
+    "@payloadcms/plugin-multi-tenant": "^3.69.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

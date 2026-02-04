@@ -1,0 +1,27 @@
+# Source files (dist is published)
+src/
+
+# Documentation (link to GitHub)
+docs/
+
+# Config files
+tsconfig.json
+tsup.config.ts
+.eslintrc*
+.prettierrc*
+
+# Development
+.github/
+.vscode/
+.idea/
+
+# Tests
+__tests__/
+*.test.ts
+*.spec.ts
+coverage/
+
+# Misc
+.gitignore
+.env*
+*.log

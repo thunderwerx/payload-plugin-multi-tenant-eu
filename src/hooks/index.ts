@@ -1,0 +1,1 @@
+export { createBeforeTenantDeleteHook } from './beforeTenantDelete'
