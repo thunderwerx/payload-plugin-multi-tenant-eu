@@ -1,7 +1,7 @@
 {
   "name": "payload-plugin-multi-tenant-eu",
   "version": "1.0.2",
-  "description": "EU/UK GDPR compliance extension for the official Payload CMS Multi-Tenant Plugin. Adds tenant-level privacy fields, data portability exports, retention management, and erasure hooks.",
+  "description": "Payload CMS plugin: extends the official Multi-Tenant Plugin with EU/UK GDPR compliance (tenant privacy fields, data portability, retention, erasure hooks).",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
